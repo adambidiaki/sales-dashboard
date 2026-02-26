@@ -20,13 +20,13 @@ O dashboard permite acompanhar investimentos, médias, valores centrais, frequê
 2. Crie um novo ambiente virtual com o Python 3.9.5:
 
    ```bash
-   conda create -n yolov5 python=3.9.5
+   conda create -n venv python=3.9.5
    ```
 
 3. Ative o ambiente:
 
    ```bash
-   conda activate yolov5
+   conda activate venv
    ```
 
 ### 2️⃣ Instalar as dependências
@@ -44,5 +44,5 @@ O dashboard permite acompanhar investimentos, médias, valores centrais, frequê
 1. Com o ambiente configurado e as dependências instaladas, você pode executar o projeto.
 
    ```bash
-   python main.py
+   streamlit run home.py
    ```
